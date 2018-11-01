@@ -1,0 +1,41 @@
+.game-container {
+    color: white;
+}
+
+.game-container .currently-logged {
+    padding-top: 2%;
+    margin-bottom: 8%;
+}
+
+.game-container .location {
+    margin-bottom: 3%;
+}
+
+.game-container .error {
+    margin-top: 3%;
+}
+.game-container .game-form input {
+    background-color: white !important;
+    color: black !important;
+    font-family: 'Press Start 2P', cursive;
+
+}
+.game-container .game-form input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0px 1000px white inset;
+    color: white;
+    font-family: 'Press Start 2P', cursive;
+}
+*:focus {
+    -webkit-box-shadow: 0 0 0px 1000px white inset;
+    color: white;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.game-container .game-form button {
+    background-color: black;
+    border: none;
+    color: white;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 1em;
+    margin-left: 3%;
+}

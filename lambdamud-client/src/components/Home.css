@@ -1,0 +1,13 @@
+.home-container {
+    height: 100%;
+    width: 100%;
+}
+.home-container a {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    flex-direction: space-around;
+    margin-left: 20%;
+    padding-top: 7%;
+    font-size: 2em;
+}

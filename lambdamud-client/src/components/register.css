@@ -1,0 +1,71 @@
+.register-container {
+    height: 100vh;
+    width: 100%;
+    overflow-y: hidden;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.register-container .register-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.register-container .register-form input {
+    background-color: white !important;
+    color: black !important;
+    font-family: 'Press Start 2P', cursive;
+
+}
+.register-container .register-form input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0px 1000px white inset;
+    color: white;
+    font-family: 'Press Start 2P', cursive;
+}
+*:focus {
+    -webkit-box-shadow: 0 0 0px 1000px white inset;
+    color: white;
+    font-family: 'Press Start 2P', cursive;
+}
+.register-container .register-form button {
+    background-color: black;
+    border: none;
+    color: white;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 1em;
+}
+.register-container .register-form button:focus {
+    background-color: black;
+    border: none;
+    color: white;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 1em;
+}
+
+
+.register-container .register-form a {
+    color: white;
+    text-decoration: none;
+}
+.register-container .register-form a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+.register-container .register-form Link {
+    margin-top: 42px;
+}
+.register-container .play-link {
+    font-size: 7em;
+    text-decoration: none;
+}
+.register-container .play-link a {
+    color: white;
+    text-decoration: none;
+}
+.register-container .play-link a:visited {
+    color: white;
+    text-decoration: none;
+}

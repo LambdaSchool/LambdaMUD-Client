@@ -1,0 +1,62 @@
+.login-container {
+    height: 100vh;
+    width: 100%;
+    overflow-y: hidden;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.login-container .login-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.login-container .login-form input {
+    background-color: white !important;
+    color: black !important;
+    font-family: 'Press Start 2P', cursive;
+
+}
+.login-container .login-form input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0px 1000px white inset;
+    color: white;
+    font-family: 'Press Start 2P', cursive;
+}
+*:focus {
+    -webkit-box-shadow: 0 0 0px 1000px white inset;
+    color: white;
+    font-family: 'Press Start 2P', cursive;
+}
+.login-container .login-form button {
+    background-color: black;
+    border: none;
+    color: white;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 1em;
+}
+
+.login-container .login-form a {
+    color: white;
+    text-decoration: none;
+}
+.login-container .login-form a:visited {
+    color: white;
+    text-decoration: none;
+}
+.login-container .login-form Link {
+    margin-top: 42px;
+}
+.login-container .play-link {
+    font-size: 7em;
+    text-decoration: none;
+}
+.login-container .play-link a {
+    color: white;
+    text-decoration: none;
+}
+.login-container .play-link a:visited {
+    color: white;
+    text-decoration: none;
+}
